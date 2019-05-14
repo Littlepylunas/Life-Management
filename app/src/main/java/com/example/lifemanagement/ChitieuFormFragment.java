@@ -139,7 +139,7 @@ public class ChitieuFormFragment extends Fragment {
             public void onClick(View v) {
                 // Adding in SQLite
                 Date currentTime = Calendar.getInstance().getTime();
-                SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
+                SimpleDateFormat df = new SimpleDateFormat("EEE dd-MM-yyyy HH:mm");
                 String formattedDate = df.format(currentTime);
                 String status = "";
                 if(etTenchitieu.getText().toString().equals("Cho mượn") || etTenchitieu.getText().toString().equals("Được cho mượn")) status = "Chưa trả";
