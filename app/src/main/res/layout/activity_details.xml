@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/history_header"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:background="@color/colorInfo">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_FindChitieuDetails"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:nextFocusUp="@id/et_FindChitieuDetails"
+            android:nextFocusLeft="@id/et_FindChitieuDetails"
+            android:maxLines="1"
+            android:inputType="text"
+            android:hint="Tìm kiếm"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="10dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_ChitieuDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/listview_border">
+
+    </ListView>
+</LinearLayout>
