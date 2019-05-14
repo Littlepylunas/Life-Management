@@ -1,5 +1,5 @@
 # LifeManagement
-App Mobile help you make ur life better
+App Mobile help you make ur life is better
 
 - You want to thank me ? Simple , help me 1 win in Dota2 Ranked now (My steam id is 145628243)
 
